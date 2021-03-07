@@ -12,12 +12,12 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/assets/stylesheets/main.css" />
-    <title>Example - Home</title>
+    <title>Pacific Sailing - Home</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md sticky-top navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Pacific Sailing</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -29,12 +29,17 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav directory">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Pricing</a>
-            <a class="nav-link" href="#">Disabled</a>
+            <a class="nav-link" href="#">Lessons</a>
+            <a class="nav-link" href="#">Charters</a>
+            <a class="nav-link" href="#">Flotillas</a>
+            <a class="nav-link" href="#">Events</a>
+            <a class="nav-link" href="#">Locations</a>
           </div>
         </div>
       </div>
@@ -43,30 +48,32 @@
       <header>
         <div class="header-image">
           <div class="header-overlay">
-            <div class="title container-fluid text-center">
-              <h1 class="display-1">Pacific Sailing</h1>
+            <div
+              class="title d-flex text-center flex-column justify-content-center"
+            >
+              <h1 class="display-1 align-middle">Pacific Sailing</h1>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut
-                incidunt doloremque assumenda temporibus dolore nobis.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
+                voluptates.
               </p>
             </div>
           </div>
         </div>
       </header>
-      <div>
+      <div class="col-md">
         <div>
-          <h3>Feature A</h3>
+          <h3>Charters</h3>
         </div>
         <div>
-          <h3>Feature B</h3>
+          <h3>Lessons</h3>
         </div>
       </div>
       <div>
         <div>
-          <h3>Feature C</h3>
+          <h3>Flotillas</h3>
         </div>
         <div>
-          <h3>Feature D</h3>
+          <h3>Events</h3>
         </div>
       </div>
       <div>
@@ -79,27 +86,27 @@
       </div>
     </main>
     <footer>
-      <div>
+      <div class="d-inline-flex">
         <div>
-          <h5>Company</h5>
-          <div>About Us</div>
-          <div>Careers</div>
-          <div>Giving Back</div>
-          <div>For Investors</div>
+          <h5>Locations</h5>
+          <a>San Francisco</a>
+          <a>Los Angeles</a>
+          <a>San Diego</a>
+          <a>Honolulu</a>
         </div>
         <div>
-          <h5>Product</h5>
-          <div>Support</div>
-          <div>Enterprise</div>
-          <div>Education</div>
-          <div>Request Feature</div>
+          <h5>Company</h5>
+          <a>About Us</a>
+          <a>Careers</a>
+          <a>Giving Back</a>
+          <a>Join our Fleet</a>
         </div>
         <div>
           <h5>Follow Us</h5>
-          <div>Blog</div>
-          <div>Facebook</div>
-          <div>Twitter</div>
-          <div>Github</div>
+          <a>Blog</a>
+          <a>Facebook</a>
+          <a>Twitter</a>
+          <a>Instagram</a>
         </div>
       </div>
     </footer>
