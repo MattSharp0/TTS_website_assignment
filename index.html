@@ -35,10 +35,10 @@
         >
           <div class="navbar-nav directory">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Lessons</a>
-            <a class="nav-link" href="#">Charters</a>
-            <a class="nav-link" href="#">Flotillas</a>
-            <a class="nav-link" href="#">Events</a>
+            <a class="nav-link" href="/pages/lessons.html">Lessons</a>
+            <a class="nav-link" href="/pages/charters.html">Charters</a>
+            <a class="nav-link" href="/pages/flotillas.html">Flotillas</a>
+            <a class="nav-link" href="/pages/events.html">Events</a>
             <div class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -52,12 +52,26 @@
                 class="dropdown-menu dropdown-menu-end"
                 aria-labelledby="locations"
               >
-                <li><a class="dropdown-item" href="#">San Francisco</a></li>
-                <li><a class="dropdown-item" href="#">Los Angeles</a></li>
                 <li>
-                  <a class="dropdown-item" href="#">San Diego</a>
+                  <a class="dropdown-item" href="/pages/locations/sf.html"
+                    >San Francisco</a
+                  >
                 </li>
-                <li><a href="#" class="dropdown-item">Honolulu</a></li>
+                <li>
+                  <a class="dropdown-item" href="/pages/locations/la.html"
+                    >Los Angeles</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/pages/locations/sd.html"
+                    >San Diego</a
+                  >
+                </li>
+                <li>
+                  <a href="/pages/locations/hi.html" class="dropdown-item"
+                    >Honolulu</a
+                  >
+                </li>
               </ul>
             </div>
           </div>
@@ -188,29 +202,28 @@
       </div>
     </main>
     <footer>
-      <div class="d-inline-flex">
-        <div class="justify-content-center">
-          <h5>Locations</h5>
-          <a href="">San Francisco</a>
-          <a href="">Los Angeles</a>
-          <a href="">San Diego</a>
-          <a href="">Honolulu</a>
+      <div class="container d-inline-flex justify-content-around">
+        <div class="">
+          <h5 class="heading-6">Locations</h5>
+          <a href="/pages/locations/sf.html">San Francisco</a>
+          <a href="/pages/locations/la.html">Los Angeles</a>
+          <a href="/pages/locations/sd.html">San Diego</a>
+          <a href="/pages/locations/hi.html">Honolulu</a>
         </div>
         <div class="">
-          <h5>Company</h5>
+          <h5 class="heading-6">Company</h5>
           <a href="">About Us</a>
           <a href="">Careers</a>
           <a href="">Giving Back</a>
           <a href="">Join our Fleet</a>
         </div>
-        <div>
-          <h5>Follow Us</h5>
+        <div class="justify-content-end">
+          <h5 class="heading-6">Follow Us</h5>
           <a href="">Blog</a>
           <a href="">Facebook</a>
           <a href="">Twitter</a>
           <a href="">Instagram</a>
         </div>
-        <div class="spacer"></div>
       </div>
     </footer>
     <script type="text/javascript" src="/js/main.js"></script>

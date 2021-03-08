@@ -59,8 +59,18 @@ footer {
   height: 25vh;
 }
 
+footer .container div {
+  align-content: center;
+  margin-top: 1rem;
+}
+
 footer a {
   display: block;
   text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover {
+  text-decoration: underline;
   color: #fff;
 }
