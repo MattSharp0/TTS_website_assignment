@@ -44,11 +44,23 @@ header div {
   color: #fff;
 }
 
-footer a {
-  display: block;
+.card img {
+  width: 100%;
+  height: 33vh;
+  object-fit: cover;
 }
 
-/* https://getbootstrap.com/docs/5.0/examples/product/ */
+.row {
+  padding-top: 1.5rem;
+}
 
-/* background: linear-gradient(335deg, rgba(2,0,36,1) 0%, rgba(1,3,46,1) 20%, rgba(0,212,255,1) 100%);
- */
+footer {
+  margin-top: 1.5rem;
+  height: 25vh;
+}
+
+footer a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
